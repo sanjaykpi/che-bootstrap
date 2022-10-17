@@ -154,7 +154,7 @@
     background-color: lightskyblue;
     margin-top: 50px;
     margin-left: 180px;
-    padding: 20px;
+    padding: 15px;
 }
 .about-bottom-right{
     background-color: #fff;
@@ -162,7 +162,7 @@
     padding: 35px;
     margin-top: 50px;
     margin-bottom: 20px;
-    margin-right: 195px;
+    margin-right: 105px;
 }
 .about-bottom-one span{
     font-family: 'Open Sans', sans-serif;
@@ -218,4 +218,44 @@
 }
 .about-bottom-two span{
     color: darkblue;
+} 
+   /* service */
+.service-top{
+    text-align: center;
+    line-height: 1.7;
+    padding-top: 40px;
+}
+.service-top p{
+    width: 53%;
+    margin: auto;
+}
+.service-top span{
+    font-size: 13px;
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+}
+.service-top h2{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.service-top p{
+    font-size: 15px;
+    color: gray;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.service-top h2{
+    position: relative;
+}
+.service-top h2::after{
+    content: "";
+    height: 2px;
+    width: 55px;
+    position: absolute;
+    background-color: blue;
+    top: 45px;
+    right: 48%;
+}
+.service-bottom-in{
+    box-shadow: 2px 2px 5px gray;
 }
