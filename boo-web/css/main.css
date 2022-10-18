@@ -257,5 +257,25 @@
     right: 48%;
 }
 .service-bottom-in{
-    box-shadow: 2px 2px 5px gray;
+    box-shadow: 2px 2px 5px rgb(207, 195, 195);
+    margin: 15px;
+    padding: 35px;
+}
+.service-bottom-one{
+    padding: 30px 80px;
+    /* margin: 40px; */
+}
+.service-bottom-two{
+    /* margin: 40px; */
+    padding: 20px 80px;
+}
+.service-bottom-in i{
+    background-color: #7ecbfd;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 50%;
+    color: #fff;
+}
+.service-bottom-in h3{
+    margin-top: 20px;
 }
