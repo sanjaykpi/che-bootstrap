@@ -278,4 +278,42 @@
 }
 .service-bottom-in h3{
     margin-top: 20px;
+}   
+
+  /* resume */
+  .resume-top{
+    text-align: center;
+    line-height: 1.7;
+    padding-top: 40px;
+}
+.resume-top p{
+    width: 53%;
+    margin: auto;
+}
+.resume-top span{
+    font-size: 13px;
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+}
+.resume-top h2{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.resume-top p{
+    font-size: 15px;
+    color: gray;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.resume-top h2{
+    position: relative;
+}
+.resume-top h2::after{
+    content: "";
+    height: 2px;
+    width: 55px;
+    position: absolute;
+    background-color: blue;
+    top: 45px;
+    right: 48%;
 }
