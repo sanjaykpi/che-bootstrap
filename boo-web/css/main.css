@@ -317,3 +317,15 @@
     top: 45px;
     right: 48%;
 }
+.resume-bottom{
+    display: flex;
+    padding: 20px;
+}  
+.resume-bot-one{
+    display: flex;
+    
+} 
+.resume-bot-in,.resume-bottom-in{
+    background-color: #fff;
+    margin: 20px;
+}
